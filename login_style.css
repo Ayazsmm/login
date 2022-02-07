@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    }   
+
+
+.logo {
+        text-transform: uppercase;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: rgb(0, 0, 0);
+        opacity: 0.8;
+    
+    }
+
+video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.8;
+        z-index: -1;
+    
+    }
+
+    main {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }    
+
+    .social{
+        position: absolute;
+        bottom: 30px;
+        left: 100px;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .social li{
+        list-style: none;
+    }
+    
+    .social li a{
+        display: inline-block;
+        margin-right: 10px;
+        transform: scale(0.5);
+        transition: 0.5s;
+    }
+
+    .form_label{
+        margin-top: 10px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+    }
+    .form_input{
+        padding: 6px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px #959595;
+        border-radius: 6px;
+        box-sizing: border-box;
+    }
+    #button{
+        cursor: pointer;
+        background-color: yellowgreen;
+        display: block;
+        width: 210px;
+        height: 40px;
+        margin-top: 8px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        border-radius: 6px;
+    }
+    .hlink{
+        margin-top: 10px;
+        border: none;
+        outline: invert;
+        font-size: 20px;
+        
+    }
